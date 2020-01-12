@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactor-filter-test-site/static/css/main.d1b05096.chunk.css",
+    "main.js": "/reactor-filter-test-site/static/js/main.39762a82.chunk.js",
+    "main.js.map": "/reactor-filter-test-site/static/js/main.39762a82.chunk.js.map",
+    "runtime-main.js": "/reactor-filter-test-site/static/js/runtime-main.df511492.js",
+    "runtime-main.js.map": "/reactor-filter-test-site/static/js/runtime-main.df511492.js.map",
+    "static/js/2.958b4e06.chunk.js": "/reactor-filter-test-site/static/js/2.958b4e06.chunk.js",
+    "static/js/2.958b4e06.chunk.js.map": "/reactor-filter-test-site/static/js/2.958b4e06.chunk.js.map",
+    "index.html": "/reactor-filter-test-site/index.html",
+    "precache-manifest.fb58aa5c0838d0f75d3dafb2b6071c7a.js": "/reactor-filter-test-site/precache-manifest.fb58aa5c0838d0f75d3dafb2b6071c7a.js",
+    "service-worker.js": "/reactor-filter-test-site/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/reactor-filter-test-site/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.958b4e06.chunk.js.LICENSE": "/reactor-filter-test-site/static/js/2.958b4e06.chunk.js.LICENSE",
+    "static/media/logo.svg": "/reactor-filter-test-site/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df511492.js",
+    "static/js/2.958b4e06.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.39762a82.chunk.js"
+  ]
+}

@@ -7,20 +7,26 @@ https://jmarek0685.github.io/reactor-filter-test-site/
 
 
 ##1.) Downloaded nodejs and installed it and some dependencies like choclatey in case I need them.
+
 	https://nodejs.org/en/download/
 
 ##2.) Referenced this to begin learning reactjs
+
 	https://www.w3schools.com/REACT/default.asp
   
 ##3.) Reference this to see how to call an API
+
 	https://reactjs.org/docs/faq-ajax.html
   
 ##4.) Chose this link from the public-apis to fetch the data from
+
   https://jikan.moe/
   https://github.com/toddmotto/public-apis
   
 ##5.) Used this video as a guide on how to do the filtering
+
   https://youtu.be/RM_nXOyHwN0 
   
 ##6.) The application was published to Git Hub Pages following these instructions:
+
   https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d

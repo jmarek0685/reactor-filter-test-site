@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple responsive web application build using reactjs that fetches data from a public api and filters based on user input. It also sorts the resulting data alphabetically.
+The application is available for demo on github pages here:
+https://jmarek0685.github.io/reactor-filter-test-site/
 
-## Available Scripts
 
-In the project directory, you can run:
+Steps I followed to put this together:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##1.) Downloaded nodejs and installed it and some dependencies like choclatey in case I need them.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+	https://nodejs.org/en/download/
 
-### `yarn test`
+##2.) Referenced this to begin learning reactjs
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+	https://www.w3schools.com/REACT/default.asp
+  
+##3.) Reference this to see how to call an API
 
-### `yarn build`
+	https://reactjs.org/docs/faq-ajax.html
+  
+##4.) Chose this link from the public-apis to fetch the data from
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  	https://jikan.moe/
+  
+  	https://github.com/toddmotto/public-apis
+  
+##5.) Used this video as a guide on how to do the filtering
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  	https://youtu.be/RM_nXOyHwN0 
+  
+##6.) The application was published to Git Hub Pages following these instructions:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  	https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d

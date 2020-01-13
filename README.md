@@ -3,7 +3,7 @@ The application is available for demo on github pages here:
 https://jmarek0685.github.io/reactor-filter-test-site/
 
 
-##Steps I followed to put this together:
+Steps I followed to put this together:
 
 
 ##1.) Downloaded nodejs and installed it and some dependencies like choclatey in case I need them.
@@ -20,13 +20,14 @@ https://jmarek0685.github.io/reactor-filter-test-site/
   
 ##4.) Chose this link from the public-apis to fetch the data from
 
-  https://jikan.moe/
-  https://github.com/toddmotto/public-apis
+  	https://jikan.moe/
+  
+  	https://github.com/toddmotto/public-apis
   
 ##5.) Used this video as a guide on how to do the filtering
 
-  https://youtu.be/RM_nXOyHwN0 
+  	https://youtu.be/RM_nXOyHwN0 
   
 ##6.) The application was published to Git Hub Pages following these instructions:
 
-  https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d
+  	https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d

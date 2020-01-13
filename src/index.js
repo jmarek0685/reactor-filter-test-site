@@ -8,21 +8,22 @@ class MyComponent extends React.Component {
     this.state = {
       error: null,
       isLoaded: false,
-      results: [],
+      dogs: [],
 	  search: ""
     };
   }
 
   //Fetch is where we do the API call to retrieve the data from a public API
   //https://github.com/toddmotto/public-apis 
+  //The heroku hosted rest service is calling 
   componentDidMount() {
-    fetch("https://api.jikan.moe/v3/search/anime?q=onepunch&sort=ascending&order_by=title")
+    fetch("http://polar-atoll-30396.herokuapp.com/v1/get-dogs")
       .then(res => res.json())
       .then(
         (result) => {
           this.setState({
             isLoaded: true,
-            results: result.results
+            dogs: result.dogs
           });
         },
 
@@ -41,14 +42,16 @@ class MyComponent extends React.Component {
   };
 
   render() {
-   const { error, isLoaded, results, search } = this.state;
-   const filteredResults = results.filter(item => {
-	   //alert(item.title.toLowerCase()); //Uncomment to troubleshoot outside of debugger
-      return item.title.toLowerCase().indexOf(search.toLowerCase()) !== -1;
+   const { error, isLoaded, dogs, search } = this.state;
+   
+   //This does the filtering by comparing the user provided input of (search) and compares it with each breed name.
+   //It also converts both to lowercase first to allow for case neutral matching
+   const filtereddogs = dogs.filter(item => {
+      return item.name.toLowerCase().indexOf(search.toLowerCase()) !== -1;
     });
   
-    //Alphabetize the filtered results
-    filteredResults.sort((a, b) => a.title.localeCompare(b.title));
+    //Alphabetize the filtered dogs
+    filtereddogs.sort((a, b) => a.name.localeCompare(b.name));
 
 
     if (error) {
@@ -60,13 +63,12 @@ class MyComponent extends React.Component {
       //This is what will result as the JSX html output.
       return (
 		  <div>
-        <img alt="One Punch" src={require('./imgs/OnePunchMan.jpg')} /> <br/>
-       <h1>Search through "One Punch" results</h1>  <br/>
+       <h1>Search from a list of dog breeds</h1>  <br/>
 		  <Input icon="search" onChange={this.onchange} />
         <ul>
-          {filteredResults.map(item => (
-            <li key={item.mal_id}>
-              {item.title} 
+          {filtereddogs.map(item => (
+            <li key={item.id}>
+              {item.name} 
             </li>
           ))}
         </ul>

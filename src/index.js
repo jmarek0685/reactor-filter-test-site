@@ -17,7 +17,7 @@ class MyComponent extends React.Component {
   //https://github.com/toddmotto/public-apis 
   //The heroku hosted rest service is calling 
   componentDidMount() {
-    fetch("http://polar-atoll-30396.herokuapp.com/v1/get-dogs")
+    fetch("https://polar-atoll-30396.herokuapp.com/v1/get-dogs")
       .then(res => res.json())
       .then(
         (result) => {

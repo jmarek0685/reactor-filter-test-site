@@ -1,16 +1,17 @@
-This is a responsive web application build using reactjs that fetches data from a public api and filters based on user input. It also sorts the resulting data alphabetically.
+This is a responsive web application built using the reactjs javascript library. It fetches data from a custom made spring boot rest api that calls another publicly available api. 
+It filters the response based on user input and displays the results in a list. It also sorts the resulting data alphabetically.
 The application is available for demo on github pages here (Steps below):
 https://jmarek0685.github.io/reactor-filter-test-site/
 
 ----------------------------------------------------------------------------------------------------------
-This application calls a restful spring boot application I created and is currently hosted at Heroku here:
+The restful spring boot application I created for this is currently hosted at Heroku here:
 
 http://polar-atoll-30396.herokuapp.com/v1/get-dogs
 
-The sourcecode is availabe at heroku through git commands
+The sourcecode is available at heroku through git commands
 heroku git:clone -a polar-atoll-30396
 
-The Source Code is also here:
+The Source Code is also available here:
 
 https://github.com/jmarek0685/restfuldogservice
 

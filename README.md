@@ -1,4 +1,4 @@
-This is a simple responsive web application build using reactjs that fetches data from a public api and filters based on user input. It also sorts the resulting data alphabetically.
+This is a responsive web application build using reactjs that fetches data from a public api and filters based on user input. It also sorts the resulting data alphabetically.
 The application is available for demo on github pages here (Steps below):
 https://jmarek0685.github.io/reactor-filter-test-site/
 

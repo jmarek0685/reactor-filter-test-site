@@ -4,12 +4,14 @@ https://jmarek0685.github.io/reactor-filter-test-site/
 
 ----------------------------------------------------------------------------------------------------------
 This application calls a restful spring boot application I created and is currently hosted at Heroku here:
+
 http://polar-atoll-30396.herokuapp.com/v1/get-dogs
 
 The sourcecode is availabe at heroku through git commands
 heroku git:clone -a polar-atoll-30396
 
-The Source Code is also here
+The Source Code is also here:
+
 https://github.com/jmarek0685/restfuldogservice
 
 ----------------------------------------------------------------------------------------------------------
